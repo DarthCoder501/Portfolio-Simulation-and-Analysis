@@ -2,7 +2,7 @@ pandas==2.2.3
 numpy==2.2.1
 shap==0.46.0
 requests==2.32.3
-dotenv==0.0.5
+python-dotenv==1.0.1
 matplotlib==3.10.0
 xgboost==2.1.1
 openai==1.59.7
