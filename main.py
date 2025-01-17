@@ -6,7 +6,6 @@ import matplotlib.pyplot as plt
 import requests
 from dotenv import load_dotenv
 import os
-import pandas as pd
 
 # Use the port specified by Render, or default to 10000
 port = os.getenv("PORT", 10000)
@@ -210,7 +209,3 @@ try:
         st.error(f"Error: {response.status_code} - {response.text}")
 except Exception as e:
     st.error(f"An error occurred while fetching the LLM response: {e}")
-
-# Start the Streamlit app
-if __name__ == "__main__":
-    st.run()
