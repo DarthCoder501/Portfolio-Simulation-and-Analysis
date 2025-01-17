@@ -9,3 +9,4 @@ openai==1.59.7
 gunicorn==23.0.0
 llvmlite==0.43.0
 numba==0.60.0
+streamlit==1.41.1
